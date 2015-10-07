@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		54AD2A691BC4EB78006EC905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD2A681BC4EB78006EC905 /* main.m */; };
 		54AD2A6C1BC4EB78006EC905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD2A6B1BC4EB78006EC905 /* AppDelegate.m */; };
-		54AD2A6F1BC4EB78006EC905 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD2A6E1BC4EB78006EC905 /* ViewController.m */; };
-		54AD2A721BC4EB78006EC905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AD2A701BC4EB78006EC905 /* Main.storyboard */; };
 		54AD2A741BC4EB78006EC905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AD2A731BC4EB78006EC905 /* Assets.xcassets */; };
 		54AD2A771BC4EB78006EC905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AD2A751BC4EB78006EC905 /* LaunchScreen.storyboard */; };
 		54AD2A821BC4EB78006EC905 /* iosGrabcutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD2A811BC4EB78006EC905 /* iosGrabcutTests.m */; };
 		54AD2A8D1BC4EB78006EC905 /* iosGrabcutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD2A8C1BC4EB78006EC905 /* iosGrabcutUITests.m */; };
+		54D1D9BE1BC4FAE6009AA6D8 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1D9BD1BC4FAE6009AA6D8 /* opencv2.framework */; settings = {ASSET_TAGS = (); }; };
+		54D1D9C81BC501B6009AA6D8 /* CutoutImagePacking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9C01BC501B6009AA6D8 /* CutoutImagePacking.cpp */; settings = {ASSET_TAGS = (); }; };
+		54D1D9C91BC501B6009AA6D8 /* CutoutImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9C21BC501B6009AA6D8 /* CutoutImage.cpp */; settings = {ASSET_TAGS = (); }; };
+		54D1D9CA1BC501B6009AA6D8 /* Bridge2OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9C51BC501B6009AA6D8 /* Bridge2OpenCV.mm */; settings = {ASSET_TAGS = (); }; };
+		54D1D9CB1BC501B6009AA6D8 /* CloverGrabCut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9C61BC501B6009AA6D8 /* CloverGrabCut.cpp */; settings = {ASSET_TAGS = (); }; };
+		54D1D9D11BC50213009AA6D8 /* ImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9CE1BC50213009AA6D8 /* ImageEditView.m */; settings = {ASSET_TAGS = (); }; };
+		54D1D9D21BC50213009AA6D8 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9D01BC50213009AA6D8 /* DrawView.m */; settings = {ASSET_TAGS = (); }; };
+		54D1D9D61BC5023D009AA6D8 /* UIImage+IF.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9D51BC5023D009AA6D8 /* UIImage+IF.m */; settings = {ASSET_TAGS = (); }; };
+		54D1D9D91BC50289009AA6D8 /* DrawViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9D81BC50289009AA6D8 /* DrawViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		54D1D9DB1BC51D92009AA6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9DA1BC51D92009AA6D8 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54D1D9DE1BC5380D009AA6D8 /* RotateCutImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9DD1BC5380D009AA6D8 /* RotateCutImageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54D1D9E11BC53887009AA6D8 /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9E01BC53887009AA6D8 /* KTOneFingerRotationGestureRecognizer.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +44,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		54AD2A9F1BC4F1F5006EC905 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		54AD2A641BC4EB78006EC905 /* iosGrabcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosGrabcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AD2A681BC4EB78006EC905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54AD2A6A1BC4EB78006EC905 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54AD2A6B1BC4EB78006EC905 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		54AD2A6D1BC4EB78006EC905 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54AD2A6E1BC4EB78006EC905 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		54AD2A711BC4EB78006EC905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54AD2A731BC4EB78006EC905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54AD2A761BC4EB78006EC905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54AD2A781BC4EB78006EC905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +72,28 @@
 		54AD2A881BC4EB78006EC905 /* iosGrabcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosGrabcutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AD2A8C1BC4EB78006EC905 /* iosGrabcutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosGrabcutUITests.m; sourceTree = "<group>"; };
 		54AD2A8E1BC4EB78006EC905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D1D9BD1BC4FAE6009AA6D8 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		54D1D9C01BC501B6009AA6D8 /* CutoutImagePacking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CutoutImagePacking.cpp; sourceTree = "<group>"; };
+		54D1D9C11BC501B6009AA6D8 /* CutoutImagePacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutoutImagePacking.h; sourceTree = "<group>"; };
+		54D1D9C21BC501B6009AA6D8 /* CutoutImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CutoutImage.cpp; sourceTree = "<group>"; };
+		54D1D9C31BC501B6009AA6D8 /* CutoutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutoutImage.h; sourceTree = "<group>"; };
+		54D1D9C41BC501B6009AA6D8 /* Bridge2OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge2OpenCV.h; sourceTree = "<group>"; };
+		54D1D9C51BC501B6009AA6D8 /* Bridge2OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bridge2OpenCV.mm; sourceTree = "<group>"; };
+		54D1D9C61BC501B6009AA6D8 /* CloverGrabCut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloverGrabCut.cpp; sourceTree = "<group>"; };
+		54D1D9C71BC501B6009AA6D8 /* CloverGrabCut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloverGrabCut.h; sourceTree = "<group>"; };
+		54D1D9CD1BC50213009AA6D8 /* ImageEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEditView.h; sourceTree = "<group>"; };
+		54D1D9CE1BC50213009AA6D8 /* ImageEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageEditView.m; sourceTree = "<group>"; };
+		54D1D9CF1BC50213009AA6D8 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		54D1D9D01BC50213009AA6D8 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		54D1D9D41BC5023D009AA6D8 /* UIImage+IF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IF.h"; sourceTree = "<group>"; };
+		54D1D9D51BC5023D009AA6D8 /* UIImage+IF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IF.m"; sourceTree = "<group>"; };
+		54D1D9D71BC50289009AA6D8 /* DrawViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewModel.h; sourceTree = "<group>"; };
+		54D1D9D81BC50289009AA6D8 /* DrawViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewModel.m; sourceTree = "<group>"; };
+		54D1D9DA1BC51D92009AA6D8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54D1D9DC1BC5380D009AA6D8 /* RotateCutImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateCutImageViewController.h; sourceTree = "<group>"; };
+		54D1D9DD1BC5380D009AA6D8 /* RotateCutImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateCutImageViewController.m; sourceTree = "<group>"; };
+		54D1D9DF1BC53887009AA6D8 /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		54D1D9E01BC53887009AA6D8 /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D1D9BE1BC4FAE6009AA6D8 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +125,7 @@
 		54AD2A5B1BC4EB78006EC905 = {
 			isa = PBXGroup;
 			children = (
+				54AD2A9A1BC4F156006EC905 /* OpenCVFramework */,
 				54AD2A661BC4EB78006EC905 /* iosGrabcut */,
 				54AD2A801BC4EB78006EC905 /* iosGrabcutTests */,
 				54AD2A8B1BC4EB78006EC905 /* iosGrabcutUITests */,
@@ -101,11 +146,13 @@
 		54AD2A661BC4EB78006EC905 /* iosGrabcut */ = {
 			isa = PBXGroup;
 			children = (
+				54D1D9D31BC5022A009AA6D8 /* UIImagePlug */,
+				54D1D9CC1BC501EE009AA6D8 /* GrabcutView */,
+				54D1D9BF1BC501A1009AA6D8 /* OpenCVSource */,
 				54AD2A6A1BC4EB78006EC905 /* AppDelegate.h */,
 				54AD2A6B1BC4EB78006EC905 /* AppDelegate.m */,
 				54AD2A6D1BC4EB78006EC905 /* ViewController.h */,
-				54AD2A6E1BC4EB78006EC905 /* ViewController.m */,
-				54AD2A701BC4EB78006EC905 /* Main.storyboard */,
+				54D1D9DA1BC51D92009AA6D8 /* ViewController.m */,
 				54AD2A731BC4EB78006EC905 /* Assets.xcassets */,
 				54AD2A751BC4EB78006EC905 /* LaunchScreen.storyboard */,
 				54AD2A781BC4EB78006EC905 /* Info.plist */,
@@ -140,6 +187,55 @@
 			path = iosGrabcutUITests;
 			sourceTree = "<group>";
 		};
+		54AD2A9A1BC4F156006EC905 /* OpenCVFramework */ = {
+			isa = PBXGroup;
+			children = (
+				54D1D9BD1BC4FAE6009AA6D8 /* opencv2.framework */,
+			);
+			name = OpenCVFramework;
+			sourceTree = "<group>";
+		};
+		54D1D9BF1BC501A1009AA6D8 /* OpenCVSource */ = {
+			isa = PBXGroup;
+			children = (
+				54D1D9C01BC501B6009AA6D8 /* CutoutImagePacking.cpp */,
+				54D1D9C11BC501B6009AA6D8 /* CutoutImagePacking.h */,
+				54D1D9C21BC501B6009AA6D8 /* CutoutImage.cpp */,
+				54D1D9C31BC501B6009AA6D8 /* CutoutImage.h */,
+				54D1D9C41BC501B6009AA6D8 /* Bridge2OpenCV.h */,
+				54D1D9C51BC501B6009AA6D8 /* Bridge2OpenCV.mm */,
+				54D1D9C61BC501B6009AA6D8 /* CloverGrabCut.cpp */,
+				54D1D9C71BC501B6009AA6D8 /* CloverGrabCut.h */,
+			);
+			name = OpenCVSource;
+			sourceTree = "<group>";
+		};
+		54D1D9CC1BC501EE009AA6D8 /* GrabcutView */ = {
+			isa = PBXGroup;
+			children = (
+				54D1D9DF1BC53887009AA6D8 /* KTOneFingerRotationGestureRecognizer.h */,
+				54D1D9E01BC53887009AA6D8 /* KTOneFingerRotationGestureRecognizer.m */,
+				54D1D9DC1BC5380D009AA6D8 /* RotateCutImageViewController.h */,
+				54D1D9DD1BC5380D009AA6D8 /* RotateCutImageViewController.m */,
+				54D1D9D71BC50289009AA6D8 /* DrawViewModel.h */,
+				54D1D9D81BC50289009AA6D8 /* DrawViewModel.m */,
+				54D1D9CD1BC50213009AA6D8 /* ImageEditView.h */,
+				54D1D9CE1BC50213009AA6D8 /* ImageEditView.m */,
+				54D1D9CF1BC50213009AA6D8 /* DrawView.h */,
+				54D1D9D01BC50213009AA6D8 /* DrawView.m */,
+			);
+			name = GrabcutView;
+			sourceTree = "<group>";
+		};
+		54D1D9D31BC5022A009AA6D8 /* UIImagePlug */ = {
+			isa = PBXGroup;
+			children = (
+				54D1D9D41BC5023D009AA6D8 /* UIImage+IF.h */,
+				54D1D9D51BC5023D009AA6D8 /* UIImage+IF.m */,
+			);
+			name = UIImagePlug;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +246,7 @@
 				54AD2A601BC4EB78006EC905 /* Sources */,
 				54AD2A611BC4EB78006EC905 /* Frameworks */,
 				54AD2A621BC4EB78006EC905 /* Resources */,
+				54AD2A9F1BC4F1F5006EC905 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,7 +345,6 @@
 			files = (
 				54AD2A771BC4EB78006EC905 /* LaunchScreen.storyboard in Resources */,
 				54AD2A741BC4EB78006EC905 /* Assets.xcassets in Resources */,
-				54AD2A721BC4EB78006EC905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +369,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54AD2A6F1BC4EB78006EC905 /* ViewController.m in Sources */,
+				54D1D9CB1BC501B6009AA6D8 /* CloverGrabCut.cpp in Sources */,
+				54D1D9CA1BC501B6009AA6D8 /* Bridge2OpenCV.mm in Sources */,
+				54D1D9E11BC53887009AA6D8 /* KTOneFingerRotationGestureRecognizer.m in Sources */,
 				54AD2A6C1BC4EB78006EC905 /* AppDelegate.m in Sources */,
+				54D1D9D61BC5023D009AA6D8 /* UIImage+IF.m in Sources */,
 				54AD2A691BC4EB78006EC905 /* main.m in Sources */,
+				54D1D9DB1BC51D92009AA6D8 /* ViewController.m in Sources */,
+				54D1D9DE1BC5380D009AA6D8 /* RotateCutImageViewController.m in Sources */,
+				54D1D9C91BC501B6009AA6D8 /* CutoutImage.cpp in Sources */,
+				54D1D9D11BC50213009AA6D8 /* ImageEditView.m in Sources */,
+				54D1D9C81BC501B6009AA6D8 /* CutoutImagePacking.cpp in Sources */,
+				54D1D9D91BC50289009AA6D8 /* DrawViewModel.m in Sources */,
+				54D1D9D21BC50213009AA6D8 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +417,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54AD2A701BC4EB78006EC905 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54AD2A711BC4EB78006EC905 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54AD2A751BC4EB78006EC905 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,7 +514,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iosGrabcut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clover.iosGrabcut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +531,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iosGrabcut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clover.iosGrabcut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +611,7 @@
 				54AD2A931BC4EB78006EC905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54AD2A941BC4EB78006EC905 /* Build configuration list for PBXNativeTarget "iosGrabcutTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +620,7 @@
 				54AD2A961BC4EB78006EC905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54AD2A971BC4EB78006EC905 /* Build configuration list for PBXNativeTarget "iosGrabcutUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +629,7 @@
 				54AD2A991BC4EB78006EC905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
