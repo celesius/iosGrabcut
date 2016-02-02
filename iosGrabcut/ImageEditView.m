@@ -3,7 +3,7 @@
 //  cutImageIOS
 //
 //  Created by vk on 15/9/1.
-//  Copyright (c) 2015年 quxiu8. All rights reserved.
+//  Copyright (c) 2015年 Clover. All rights reserved.
 //
 
 #import "ImageEditView.h"

@@ -3,7 +3,7 @@
 //  cutImageIOS
 //
 //  Created by vk on 15/8/31.
-//  Copyright (c) 2015年 quxiu8. All rights reserved.
+//  Copyright (c) 2015年 Clover. All rights reserved.
 //
 #import "DrawViewModel.h"
 

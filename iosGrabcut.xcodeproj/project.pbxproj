@@ -13,6 +13,7 @@
 		54AD2A771BC4EB78006EC905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AD2A751BC4EB78006EC905 /* LaunchScreen.storyboard */; };
 		54AD2A821BC4EB78006EC905 /* iosGrabcutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD2A811BC4EB78006EC905 /* iosGrabcutTests.m */; };
 		54AD2A8D1BC4EB78006EC905 /* iosGrabcutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD2A8C1BC4EB78006EC905 /* iosGrabcutUITests.m */; };
+		54B396421BD3C96D00F55293 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B396411BD3C96D00F55293 /* opencv2.framework */; settings = {ASSET_TAGS = (); }; };
 		54D1D9C81BC501B6009AA6D8 /* CutoutImagePacking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9C01BC501B6009AA6D8 /* CutoutImagePacking.cpp */; settings = {ASSET_TAGS = (); }; };
 		54D1D9C91BC501B6009AA6D8 /* CutoutImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9C21BC501B6009AA6D8 /* CutoutImage.cpp */; settings = {ASSET_TAGS = (); }; };
 		54D1D9CA1BC501B6009AA6D8 /* Bridge2OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54D1D9C51BC501B6009AA6D8 /* Bridge2OpenCV.mm */; settings = {ASSET_TAGS = (); }; };
@@ -71,6 +72,7 @@
 		54AD2A881BC4EB78006EC905 /* iosGrabcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosGrabcutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AD2A8C1BC4EB78006EC905 /* iosGrabcutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosGrabcutUITests.m; sourceTree = "<group>"; };
 		54AD2A8E1BC4EB78006EC905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B396411BD3C96D00F55293 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		54D1D9C01BC501B6009AA6D8 /* CutoutImagePacking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CutoutImagePacking.cpp; sourceTree = "<group>"; };
 		54D1D9C11BC501B6009AA6D8 /* CutoutImagePacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutoutImagePacking.h; sourceTree = "<group>"; };
 		54D1D9C21BC501B6009AA6D8 /* CutoutImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CutoutImage.cpp; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B396421BD3C96D00F55293 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +125,7 @@
 		54AD2A5B1BC4EB78006EC905 = {
 			isa = PBXGroup;
 			children = (
+				54B396411BD3C96D00F55293 /* opencv2.framework */,
 				54AD2A9A1BC4F156006EC905 /* OpenCVFramework */,
 				54AD2A661BC4EB78006EC905 /* iosGrabcut */,
 				54AD2A801BC4EB78006EC905 /* iosGrabcutTests */,
